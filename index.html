@@ -4,75 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maid Cafe</title>
+    <title>Sweet Kittens Cafe</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+    </style>
 </head>
 <body>
-    <div class="header">
-        <div class="header-logo">Header Logo</div>
-        <ul>
-            <li>header link one</li>
-            <li>header link two</li>
-            <li>header link three</li>
-        </ul>
-    </div>
-    <div class="hero">
-        <div class="hero-text">
-            <div class="hero-header-text">
-                This website is awesome
+    <div class="wrapper">
+        <section class="header">
+            <div class="header-logo">
+                <p class="header-text">Sweet Kittens Cafe</p>
             </div>
-            <div class="hero-text-small">
-                This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast
+            <div class="header-links">
+                <ul>
+                    <li>Menu</li>
+                    <li>Contact</li>
+                    <li>Gallery</li>
+                </ul>
             </div>
-            <button>Sign up</button>
-        </div>
-        <div class="hero-image">
-            <img src="" alt="hero text info">
-        </div>
-    </div>
-    <div class="middle">
-        <div class="middle-title">
-            Some Random Info
-        </div>
-        <div class="card-one">
-            <img src="" alt="card one text">
-            this is some subtext under card one
-        </div>
-        <div class="card-two">
-            <img src="" alt="card two text">
-            this is some subtext under card two
-        </div>
-        <div class="card-three">
-            <img src="" alt="card three text">
-            this is some subtext under card three
-        </div>
-        <div class="card-four">
-            <img src="" alt="card four text">
-            this is some subtext under card four
-        </div>
-    </div>
-    <div class="quote">
-        <div class="quote-text">
-            LEAGUE OF DRAVEN
-        </div>
-        <div class="quote-attribution">
-            - DRAVEN
-        </div>
-    </div>
-    <div class="sign-up">
-        <div class="sign-up-container">
-            <div class="sign-up-title">
-                Call to Action! Sign up!
+        </section>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="hero-title">The premiere maid cafe!</p>
+                <p class="hero-text">The absolute most popular maid cafe in town! In face, we're the only maid cafe in town!</p>
+                <button class="sign-up-button">Learn more!</button>
             </div>
-            <div class="sign-up-title">
-                Sign up for updates about events!
+            <div class="hero-image">
+                <img class="hero-logo" src="./sweetkittenslogo.png" alt="company-logo">
             </div>
-            <div class="sign-up-button">
-                Sign up
+        </section>
+        <section class="info">
+            <div class="info-title">
+                <p class="info-header">Services we offer!</p>
             </div>
-        </div>    
-    </div>
-    <div class="footer">
-        copyright maid cafe 2022
-    </div>
+            <div class="card-container">
+                <div class="card-one">
+                    <img class="image-one" src="https://cdn.pixabay.com/photo/2017/04/19/13/03/coffee-2242213__340.jpg" alt="card one">
+                    <p>Quality Food!</p>
+                </div>
+                <div class="card-two">
+                    <img class="image-two" src="https://cdn.pixabay.com/photo/2017/08/07/22/57/coffee-2608864__340.jpg" alt="card two">
+                    <p>The best drinks in town!</p>
+                </div>
+                <div class="card-three">
+                    <img class="image-three" src="https://cdn.pixabay.com/photo/2018/05/12/00/26/coffee-3392159__340.jpg" alt="card three">
+                    <p>Always looking to provide the best service around!</p>
+                </div>
+                <div class="card-four">
+                    <img class="image-four" src="https://cdn.pixabay.com/photo/2020/10/07/12/33/cafe-5635015__340.jpg" alt="card four">
+                    <p>Comfortable spaces to study, work, or just relax!</p>
+                </div>
+            </div>
+        </section>
+        <section class="quote">
+            <div class="quote-text">
+                <p>"Definitely the best maid cafe I've ever been to! ...err also the only one I've been to..."</p>
+            </div>
+            <div class="quote-author">
+                <p> -customer guy #6</p>
+            </div>
+        </section>
+        <section class="update">
+            <div class="update-container">
+                <div class="update-text">
+                    <p class="update-title">Sign up for our email newsleader!</p>
+                    <p class="update-small">Get updates on all our events and new products!</p>
+                </div>
+                <div class="spacer"></div>
+                <div class="button-container">
+                <button class="update-button">Sign up!</button>
+            </div>
+        </section>
+        <section class="footer">copyright Sweet Kittens Cafe LLC 2022</section>
+    </div>    
 </body>
 </html>
